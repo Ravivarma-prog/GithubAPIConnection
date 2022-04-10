@@ -24,7 +24,7 @@ public class ServiceLayer {
 
 	public List<PullRequest> callAPI() throws ParseException {
 		String s = restTemplate.getForObject(
-				"https://api.github.com/repos/paypal/paypal-messaging-components/pulls?state=open",
+				"https://api.github.com/repos/firstcontributions/first-contributions/pulls?state=open",
 				String.class);
 
 		/*
